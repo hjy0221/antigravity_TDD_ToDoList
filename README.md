@@ -1,5 +1,7 @@
 # TDD To-Do List 앱
 
+[한국어](#tdd-to-do-list-앱) · [English](#english)
+
 이 프로젝트는 **TDD(테스트 주도 개발)** 원칙을 활용하여 구축된 To-Do List 애플리케이션입니다. 할 일 추가, 상태 토글, 삭제, 수정 및 불러오기를 포함한 핵심 할 일 목록 기능에 대해 견고하게 테스트 된 구현을 제공합니다.
 
 ## 🚀 기술 스택
@@ -61,3 +63,37 @@ npm run test:watch
 - 할 일 삭제
 - 기존 할 일의 내용 수정
 - 할 일 목록 조회
+
+---
+
+## English
+
+A To-Do List application developed around test-driven development practices. It covers the core create, read, update, delete, and completion-toggle flows with Jest and React Testing Library tests.
+
+### Tech stack
+
+- Next.js, React, and TypeScript
+- Tailwind CSS and shadcn/ui
+- Jest and React Testing Library
+
+### Getting started
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+### Tests
+
+```bash
+npm test
+npm run test:watch
+```
+
+### Features
+
+- Add, edit, and delete tasks
+- Toggle completion status
+- Load and display the task list
