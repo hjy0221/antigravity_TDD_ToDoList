@@ -97,3 +97,8 @@ npm run test:watch
 - Add, edit, and delete tasks
 - Toggle completion status
 - Load and display the task list
+
+
+### Prerequisites and test organization
+
+Install Node.js and npm before starting. Clone the repository and change into the intended project directory before running the commands above. Tests live in `__tests__` folders beside their modules, for example `src/hooks/__tests__/useTodos.test.ts`. Custom hooks and core logic are tested with Jest as part of the TDD workflow.
