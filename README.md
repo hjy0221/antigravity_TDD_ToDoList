@@ -1,6 +1,73 @@
 # TDD To-Do List 앱
 
-[한국어](#tdd-to-do-list-앱) · [English](#english)
+[日本語](https://github.com/hjy0221/antigravity_TDD_ToDoList#%E6%97%A5%E6%9C%AC%E8%AA%9E) · [English](https://github.com/hjy0221/antigravity_TDD_ToDoList#english) · [한국어](https://github.com/hjy0221/antigravity_TDD_ToDoList#%ED%95%9C%EA%B5%AD%EC%96%B4)
+
+## 日本語
+
+テスト駆動開発（TDD）の原則に基づく To-Do アプリです。追加、完了状態の切り替え、削除、編集、一覧取得をテストしています。
+
+### 技術
+
+Next.js、React、TypeScript、Tailwind CSS、shadcn/ui、Jest、React Testing Library。
+
+### 開始方法
+
+Node.js と npm を用意し、リポジトリをクローンしてプロジェクトディレクトリで実行します。
+
+```bash
+npm install
+npm run dev
+```
+
+[http://localhost:3000](http://localhost:3000) を開きます。
+
+### テスト
+
+```bash
+npm test
+npm run test:watch
+```
+
+テストは対象モジュールに隣接する `__tests__` に配置されています。
+
+## English
+
+A To-Do List application developed around test-driven development practices. It covers the core create, read, update, delete, and completion-toggle flows with Jest and React Testing Library tests.
+
+### Tech stack
+
+- Next.js, React, and TypeScript
+- Tailwind CSS and shadcn/ui
+- Jest and React Testing Library
+
+### Getting started
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+### Tests
+
+```bash
+npm test
+npm run test:watch
+```
+
+### Features
+
+- Add, edit, and delete tasks
+- Toggle completion status
+- Load and display the task list
+
+
+### Prerequisites and test organization
+
+Install Node.js and npm before starting. Clone the repository and change into the intended project directory before running the commands above. Tests live in `__tests__` folders beside their modules, for example `src/hooks/__tests__/useTodos.test.ts`. Custom hooks and core logic are tested with Jest as part of the TDD workflow.
+
+## 한국어
 
 이 프로젝트는 **TDD(테스트 주도 개발)** 원칙을 활용하여 구축된 To-Do List 애플리케이션입니다. 할 일 추가, 상태 토글, 삭제, 수정 및 불러오기를 포함한 핵심 할 일 목록 기능에 대해 견고하게 테스트 된 구현을 제공합니다.
 
@@ -63,42 +130,3 @@ npm run test:watch
 - 할 일 삭제
 - 기존 할 일의 내용 수정
 - 할 일 목록 조회
-
----
-
-## English
-
-A To-Do List application developed around test-driven development practices. It covers the core create, read, update, delete, and completion-toggle flows with Jest and React Testing Library tests.
-
-### Tech stack
-
-- Next.js, React, and TypeScript
-- Tailwind CSS and shadcn/ui
-- Jest and React Testing Library
-
-### Getting started
-
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000).
-
-### Tests
-
-```bash
-npm test
-npm run test:watch
-```
-
-### Features
-
-- Add, edit, and delete tasks
-- Toggle completion status
-- Load and display the task list
-
-
-### Prerequisites and test organization
-
-Install Node.js and npm before starting. Clone the repository and change into the intended project directory before running the commands above. Tests live in `__tests__` folders beside their modules, for example `src/hooks/__tests__/useTodos.test.ts`. Custom hooks and core logic are tested with Jest as part of the TDD workflow.
