@@ -4,68 +4,131 @@
 
 ## 日本語
 
-テスト駆動開発（TDD）の原則に基づく To-Do アプリです。追加、完了状態の切り替え、削除、編集、一覧取得をテストしています。
+このプロジェクトは、**TDD（テスト主導開発）**の原則を活用して構築されたTo-Do Listアプリケーションです。タスクの追加、ステータスの切り替え、削除、変更、読み込みなど、コアのタスクリスト機能を確実にテストした実装を提供します。
 
-### 技術
+## 🚀技術スタック
 
-Next.js、React、TypeScript、Tailwind CSS、shadcn/ui、Jest、React Testing Library。
+- **フレームワーク:** [Next.js](https://nextjs.org/) (React)
+- **スタイリング:** [Tailwind CSS](https://tailwindcss.com/)
+- **UIコンポーネント:** [Shadcn UI](https://ui.shadcn.com/)
+- **テスト:** [Jest](https://jestjs.io/) & [React Testing Library](https://testing-library.com/)
+- **言語：** TypeScript
 
-### 開始方法
+## 📦 はじめに
 
-Node.js と npm を用意し、リポジトリをクローンしてプロジェクトディレクトリで実行します。
+### 前提条件
+コンピュータにNode.jsとnpmがインストールされていることを確認してください。
 
-```bash
-npm install
-npm run dev
-```
+### インストール方法
 
-[http://localhost:3000](http://localhost:3000) を開きます。
+1. リポジトリをクローンします。
+   ```bash
+   git clone https://github.com/hjy0221/antigravity_TDD_ToDoList.git
+   ```
+   *注：既存のディレクトリがある場合は、そのディレクトリ（`cd "4_1 TDD"`など）に移動してください。*
 
-### テスト
+2. パッケージ依存関係をインストールします。
+   ```bash
+   npm install
+   ```
 
+3. 開発サーバーを実行します。
+   ```bash
+   npm run dev
+   ```
+
+4.ブラウザで[http://localhost:3000](http://localhost:3000）を開き、結果を確認します。
+
+## 🧪テスト(TDD)
+
+このプロジェクトはTDDの原則に厳密に従います。すべてのカスタムフックとコアロジックは、実装前にJestを使用してテストされます。
+
+### テストフォルダ構造
+テストファイルは、テストするターゲットモジュールの横にある`__tests__`フォルダにあります。
+- 例: `src/hooks/__tests__/useTodos.test.ts`
+
+### テストを実行する
+
+フルテストを一度に実行するには：
 ```bash
 npm test
+```
+
+観察モードでテストを実行するには（開発中に使用することをお勧めします）：
+```bash
 npm run test:watch
 ```
 
-テストは対象モジュールに隣接する `__tests__` に配置されています。
+## 📋 コア機能
+- 新しいToDoを追加
+- やるべきことが完了したかどうかステータストグル
+- ToDoを削除
+- 既存のタスクの内容を編集
+- ToDoリストを見る
 
 ## English
 
-A To-Do List application developed around test-driven development practices. It covers the core create, read, update, delete, and completion-toggle flows with Jest and React Testing Library tests.
+This project is a To-Do List application built utilizing **Test Driven Development (TDD)** principles. It provides a solid, tested implementation of core to-do list functionality, including adding, toggling status, deleting, modifying, and loading tasks.
 
-### Tech stack
+## 🚀 Technology Stack
 
-- Next.js, React, and TypeScript
-- Tailwind CSS and shadcn/ui
-- Jest and React Testing Library
+- **Framework:** [Next.js](https://nextjs.org/) (React)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **UI Component:** [Shadcn UI](https://ui.shadcn.com/)
+- **Test:** [Jest](https://jestjs.io/) & [React Testing Library](https://testing-library.com/)
+- **Language:** TypeScript
 
-### Getting started
+## 📦 Getting started
 
-```bash
-npm install
-npm run dev
-```
+### Prerequisites
+Make sure you have Node.js and npm installed on your computer.
 
-Open [http://localhost:3000](http://localhost:3000).
+### How to install
 
-### Tests
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/hjy0221/antigravity_TDD_ToDoList.git
+   ```
+   *Note: If there is an existing intended directory, please move to that directory (e.g. `cd "4_1 TDD"`).*
 
+2. Install package dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to check the results.
+
+## 🧪 Testing (TDD)
+
+This project strictly follows TDD principles. All custom hooks and core logic are tested using Jest before implementation.
+
+### Test folder structure
+Test files are located in the `__tests__` folder next to the module being tested.
+- Example: `src/hooks/__tests__/useTodos.test.ts`
+
+### Running the tests
+
+To run the entire test at once:
 ```bash
 npm test
+```
+
+To run tests in Watch mode (recommended for use during development):
+```bash
 npm run test:watch
 ```
 
-### Features
-
-- Add, edit, and delete tasks
-- Toggle completion status
-- Load and display the task list
-
-
-### Prerequisites and test organization
-
-Install Node.js and npm before starting. Clone the repository and change into the intended project directory before running the commands above. Tests live in `__tests__` folders beside their modules, for example `src/hooks/__tests__/useTodos.test.ts`. Custom hooks and core logic are tested with Jest as part of the TDD workflow.
+## 📋 Core features
+- Add new tasks
+- Toggle the completion status of a task
+- Delete tasks
+- Modify the contents of existing to-dos
+- View to-do list
 
 ## 한국어
 
