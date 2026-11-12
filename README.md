@@ -4,6 +4,8 @@
 
 ## 日本語
 
+[日本語](https://github.com/hjy0221/antigravity_TDD_ToDoList#%E6%97%A5%E6%9C%AC%E8%AA%9E) · [English](https://github.com/hjy0221/antigravity_TDD_ToDoList#english) · [한국어](https://github.com/hjy0221/antigravity_TDD_ToDoList#%ED%95%9C%EA%B5%AD%EC%96%B4)
+
 このプロジェクトは、**TDD（テスト主導開発）**の原則を活用して構築されたTo-Do Listアプリケーションです。タスクの追加、ステータスの切り替え、削除、変更、読み込みなど、コアのタスクリスト機能を確実にテストした実装を提供します。
 
 ## 🚀技術スタック
@@ -68,6 +70,8 @@ npm run test:watch
 
 ## English
 
+[日本語](https://github.com/hjy0221/antigravity_TDD_ToDoList#%E6%97%A5%E6%9C%AC%E8%AA%9E) · [English](https://github.com/hjy0221/antigravity_TDD_ToDoList#english) · [한국어](https://github.com/hjy0221/antigravity_TDD_ToDoList#%ED%95%9C%EA%B5%AD%EC%96%B4)
+
 This project is a To-Do List application built utilizing **Test Driven Development (TDD)** principles. It provides a solid, tested implementation of core to-do list functionality, including adding, toggling status, deleting, modifying, and loading tasks.
 
 ## 🚀 Technology Stack
@@ -131,6 +135,8 @@ npm run test:watch
 - View to-do list
 
 ## 한국어
+
+[日本語](https://github.com/hjy0221/antigravity_TDD_ToDoList#%E6%97%A5%E6%9C%AC%E8%AA%9E) · [English](https://github.com/hjy0221/antigravity_TDD_ToDoList#english) · [한국어](https://github.com/hjy0221/antigravity_TDD_ToDoList#%ED%95%9C%EA%B5%AD%EC%96%B4)
 
 이 프로젝트는 **TDD(테스트 주도 개발)** 원칙을 활용하여 구축된 To-Do List 애플리케이션입니다. 할 일 추가, 상태 토글, 삭제, 수정 및 불러오기를 포함한 핵심 할 일 목록 기능에 대해 견고하게 테스트 된 구현을 제공합니다.
 
